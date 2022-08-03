@@ -8,9 +8,9 @@ import fortnite from '../public/images/works/fortnite.png'
 import DisneyPlus from '../public/images/works/DisneyPlus.png'
 import tesla from '../public/images/works/tesla.png'
 import netflix from '../public/images/works/netflix.png'
-import weather from '../public/images/works/weather.png'
+// import weather from '../public/images/works/weather.png'
 import textutilis from '../public/images/works/textutilis.png'
-import univercity from '../public/images/works/univercity.png'
+// import univercity from '../public/images/works/univercity.png'
 import lambo from '../public/images/works/lambo.png'
 
 const Works = () => (
@@ -80,12 +80,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
+        {/* <Section delay={0.5}>
           <WorkGridItem id="weather" thumbnail={weather} title="Weather">
             Weather Forecast including feels like temperature, wind gust and
             chance of rain or just search and get details
           </WorkGridItem>
-        </Section>
+        </Section> */}
         <Section delay={0.5}>
           <WorkGridItem
             id="testUtilis"
@@ -96,7 +96,7 @@ const Works = () => (
             TextUtils
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
+        {/* <Section delay={0.6}>
           <WorkGridItem
             id="univercity"
             thumbnail={univercity}
@@ -104,7 +104,7 @@ const Works = () => (
           >
             Univercity website
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
     </Container>
   </Layout>
