@@ -5,3 +5,5 @@ dist
 .env
 {/*992px, 768px,480px,base */}
     {/* sm,md,lg,xl */}
+
+dev -H 0.0.0.0
