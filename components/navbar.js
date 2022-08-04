@@ -147,7 +147,7 @@ const Navbar = props => {
           )}
           {!user.value && (
             <LinkItem href="/" path={path}>
-              Login
+              Contact
             </LinkItem>
           )}
         </Stack>
@@ -168,7 +168,7 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
