@@ -21,7 +21,7 @@ const Myaccount = () => {
       setUser(user)
       setEmail(user.email)
     }
-  }, [])
+  })
 
   // const handleUserSubmit = async () => {
   //   let data = { token: user.token }

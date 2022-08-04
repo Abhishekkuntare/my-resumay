@@ -111,7 +111,7 @@ const Signup = () => {
             <Text pr={2} size={0.4}>
               Already account?{' '}
             </Text>
-            <Link size={1} href="/login">
+            <Link passHref={true} href="/login">
               <Text cursor="pointer" fontSize="sm">
                 Log in
               </Text>

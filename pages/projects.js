@@ -41,7 +41,7 @@ const Projects = () => {
             p="6"
           >
             <Box display="flex" alignItems="baseline">
-              <Link size={1} href="/works">
+              <Link passHref={true} size={1} href="/works">
                 <Badge
                   position="relative"
                   bottom={20}
