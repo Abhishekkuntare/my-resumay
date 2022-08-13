@@ -146,7 +146,7 @@ const Navbar = props => {
             </Menu>
           )}
           {!user.value && (
-            <LinkItem href="/" path={path}>
+            <LinkItem href="/contact" path={path}>
               Contact
             </LinkItem>
           )}
